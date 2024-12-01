@@ -19,14 +19,8 @@ int main(int argc, char** argv)
     }
     file.close();
 
-    std::cout << vec1[0] << std::endl;
-    std::cout << vec2[0] << std::endl;
-
     std::sort(vec1.begin(), vec1.end());
     std::sort(vec2.begin(), vec2.end()); 
-
-    std::cout << vec1[0] << std::endl;
-    std::cout << vec2[0] << std::endl;
 
     size_t diff = 0;
     size_t score = 0;
